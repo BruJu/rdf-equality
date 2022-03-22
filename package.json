@@ -1,6 +1,6 @@
 {
   "name": "@bruju/rdf-test-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility functions to test if two list of RDF quads are isomorphic",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -12,20 +12,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/BruJu/rdf-equality.git"
+    "url": "git+ssh://git@github.com/BruJu/rdf-test-util.git"
   },
   "keywords": [
     "rdf",
     "rdfjs",
-    "equality",
     "test"
   ],
   "author": "Julian Bruyat <julian.bruyat@insa-lyon.fr>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BruJu/rdf-equality/issues"
+    "url": "https://github.com/BruJu/rdf-test-util/issues"
   },
-  "homepage": "https://github.com/BruJu/rdf-equality#readme",
+  "homepage": "https://github.com/BruJu/rdf-test-util#readme",
   "devDependencies": {
     "@types/mocha": "^9.1.0",
     "@types/n3": "^1.10.4",
