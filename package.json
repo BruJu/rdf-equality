@@ -1,6 +1,6 @@
 {
   "name": "@bruju/rdf-test-util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utility functions to test if two list of RDF quads are isomorphic",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
