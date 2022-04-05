@@ -52,7 +52,7 @@ export function quadsToString(quads: RDF.Quad[]): string[] {
   return quads.map(quad => {
     const asTermString = termToString(quad);
     // remove leading << and trailing >>
-    return asTermString.substring(2, asTermString.length - 4);
+    return asTermString.substring(2, asTermString.length - 2);
   });
 }
 
